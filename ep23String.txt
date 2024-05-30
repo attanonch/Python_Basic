@@ -1,0 +1,13 @@
+การเข้าถึงตัวอักษร
+len function
+ลบช่องว่างซ้ายขวา(strip rstrip lstrip)
+แปลง case ของ string
+การแทนที่ 
+การเช็คข้อความ
+การต่อ String(Concatinate) + ถ้าไม่ได้เป็น String ให้ใช้ ,
+การจัดการรูปแบบการแสดงผล {} .format
+การนับจำนวนคำในประโยค การค้นหา .count
+เช็คคำขึ้นต้น startswith ลงท้าย endswith 
+
+
+
