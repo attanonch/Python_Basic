@@ -1,12 +1,13 @@
 การนิยาม constructor
-การเข้าถึงข้อมูล
-การเข้าถึงข้อมูลแบบกำหนดช่วง
-การแก้ไขข้อมูล
-ตรวจสอบข้อมูล โดยใช้ if
+การเข้าถึงข้อมูล [ตำแหน่งของ index]
+การเข้าถึงข้อมูลแบบกำหนดช่วง [:]
+การแก้ไขข้อมูล lis[ตำแหน่งindex] = ข้อมูล
+ตรวจสอบข้อมูล โดยใช้ if data in store
 นับจำนวนสมาชิก (len)
-len() ทำงานร่วมกับ Loop For
-การเพิ่มข้อมูล append insert
-การลบข้อมูล remove(index,"data") pop() del clear()
+len() ทำงานร่วมกับ Loop For for 
+การเพิ่มข้อมูล lis.append(data) list.insert() extend()
+การลบข้อมูล list.remove(index,"data") list.pop() del ตัวแปร, list.clear()
+การจัดเรียงโดยใช้  .sort() .sort(reverse = true)
 การคัดลอกข้อมูล = .copy()
 การรวมข้อมูล (+) extend
 การแสดงสมาชิก (Count)
