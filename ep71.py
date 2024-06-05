@@ -10,10 +10,15 @@ except:
 # ZeroDivisionError  /0
 while True :
     try:
+        name = input("กรอกชื่อ ")
         num1 = int(input("กรอกตัวเลข 1 : ")) 
         num2 = int(input("กรอกตัวเลข 2 : ")) 
         if num1==0 and num2==0 :
             break 
+        if num1 < 0 or num2 < 0:
+            raise Exception("ไม่สามารถป้อนค่าติดลบได้นะครับ")
+        if name == "non" :
+            raise Exception("ถูกแบน")
         result = num1/num2
         print(result)
         # score = 100+"50"
